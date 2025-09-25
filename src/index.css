@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Merriweather", karla, sans-serif;
+}
+
+h1 {
+  font-family: "poppins", karla, "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
