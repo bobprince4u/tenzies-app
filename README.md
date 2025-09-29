@@ -1,12 +1,44 @@
-# React + Vite
+Tenzies Game 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive implementation of the Tenzies dice game built with React as part of Scrimba fullstack dev career path.
+Players roll the dice until all of them show the same number. Dice can be “held” to lock their value while rolling the rest. The goal is to win with the fewest rolls and fastest time possible.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Realistic dice with pip patterns
 
-## Expanding the ESLint configuration
+ Timer to track how fast you can win
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Roll counter for efficiency tracking
+
+ Confetti celebration when you win
+
+ "Try Again" message if all dice are held without winning
+
+ Accessible controls with keyboard focus management
+
+ Responsive design
+
+🛠️ Tech Stack
+
+React
+
+TailwindCSS
+
+Lucide-react icons
+
+play-js-confetti (celebrations 🎊)
+
+🎯 Objective
+
+Practice React fundamentals such as:
+
+State management with useState
+
+Side effects with useEffect
+
+Component composition & props
+
+Conditional rendering
+
+Working with refs for DOM access
